@@ -8,10 +8,12 @@ jobs:
         run: sudo apt install graphviz
       - name: Check out repository code
         uses: actions/checkout@v6
+      - name: Recuperation image routeur
+        run: wget https://github.com/skramm/but3_rt/blob/main/ressources_TP/graphes/icon_router.png
       - name: Lancement graphviz
         run: ./run2.sh 
       - name: upload du resultat
         uses: actions/upload-artifact@v4
         with:
-          name: graph1
+          name: graphs
           path: graphs/*.svg
