@@ -1,5 +1,5 @@
 graph {
-node [image="icon_router.png" shape="none" fontsize="14pt" fontcolor="red"];
+node [image="icon_router.png" shape="none" width= 1.5, height=1.0, fixedsize=true, fontsize="14pt" fontcolor="red"];
 edge [fontsize="12pt" fontcolor="blue"];
 H [pos="4,8!"];
 B [pos ="7,8!"];
