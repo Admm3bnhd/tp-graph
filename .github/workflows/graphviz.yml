@@ -15,5 +15,5 @@ jobs:
       - name: upload du resultat
         uses: actions/upload-artifact@v4
         with:
-          name: graphs
-          path: graphs/*.svg
+          name: graphiques
+          path: graphs/*
